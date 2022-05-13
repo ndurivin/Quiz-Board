@@ -1,3 +1,33 @@
-body{
-    background-color: blue;
+
+/* font-family: 'Actor', sans-serif;
+font-family: 'Adamina', serif;
+font-family: 'Comfortaa', cursive; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Comfortaa:wght@300;700&display=swap');
+
+
+/* Global Styling */
+
+/* body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Actor', sans-serif;
+    width: 90%;
 }
+
+/* container */
+
+/* .container{
+    background-color: black;
+    max-width: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: #ffff;
+}
+
+.container > h1{
+    font-weight: 900;
+} */
