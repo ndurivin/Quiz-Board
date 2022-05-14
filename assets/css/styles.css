@@ -9,25 +9,31 @@ font-family: 'Comfortaa', cursive; */
 
 /* Global Styling */
 
-/* body{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Actor', sans-serif;
-    width: 90%;
 }
 
 /* container */
 
-/* .container{
-    background-color: black;
-    max-width: fit-content;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
+.container{
+    background-color: rgb(23, 157, 205);
+    max-width: 700px;
     color: #ffff;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: black;
+    padding: 0 auto;
 }
 
-.container > h1{
+.btn-1{
+    background-color: blueviolet;
+    height: 40px;
+    width: 120px;
+    color: #ffff;
     font-weight: 900;
-} */
+    border-radius: 5px;
+}
