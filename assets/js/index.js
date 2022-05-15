@@ -13,5 +13,8 @@ function submitResults(){
     var q4 = document.forms["quizForm"]["q4"].value;
     var q5 = document.forms["quizForm"]["q5"].value;
 
-    alert(q1);
+   
+    // Validation of submission data
+
+    if()
 }
