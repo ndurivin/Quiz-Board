@@ -16,5 +16,27 @@ function submitResults(){
    
     // Validation of submission data
 
-    if()
+    for(i = 1; i <= totalQuiz;i++){
+        if(eval('q'+i) == null || eval('q'+i) == ''){
+            alert('You have not made an answer selection in question '+ i);
+            return false; 
+        }
+    }
+
+
+    // Setting of the correct answers
+
+    var answers =["d", "b", "a", "c", "c"];
+
+    // Check Answers
+
+    for(i = 1; i <= totalQuiz;i++){
+        if(eval('q'+i) == answers[i - 1]){
+        
+            initialScore++;
+        }
+    }
+        alert("You have scored "+initialScore+ ' out of ' +totalQuiz);
+    
 }
+
