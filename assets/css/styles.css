@@ -16,9 +16,10 @@ body{
     font-family: 'Actor', sans-serif;
 }
 
-/* container */
+/* Homepage Container */
 
 .container{
+    display: flex;
     background-color: rgb(23, 157, 205);
     max-width: 700px;
     color: #ffff;
@@ -26,14 +27,75 @@ body{
     align-items: center;
     justify-content: center;
     box-shadow: black;
-    padding: 0 auto;
+    height: 40vh;
 }
 
+/* Stuling the Buttons Section */
 .btn-1{
     background-color: blueviolet;
-    height: 40px;
-    width: 170px;
+    height: 60px;
+    width: 250px;
     color: #ffff;
     font-weight: 900;
     border-radius: 5px;
+    font-size: 20px;
+}
+
+.btn-2{
+    background-color: blueviolet;
+    height: 40px;
+    width: 120px;
+    color: #ffff;
+    font-weight: 900;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.btn-3{
+    background-color: blueviolet;
+    height: 40px;
+    width: 180px;
+    color: #ffff;
+    font-weight: 900;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* Quiz Form Section  */
+
+.formSection form{
+    font-family: 'Actor', sans-serif;
+    background-color: rgb(23, 157, 205);
+    color: #ffff;
+    padding: 20px;
+}
+
+.formSection form > h1{
+    font-family: 'Actor', sans-serif;
+    background-color: rgb(23, 157, 205);
+    color: #ffff;
+    padding: 20px;
+}
+
+/* Rules Section  */
+
+.rulesContainer{
+    background-color: rgb(23, 157, 205);
+}
+
+.formSection form > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+
+.formSection form input:submit{
+   background-color: blueviolet;
+   height: 40px;
+    width: 120px;
+    color: #ffff;
+    font-weight: 900;
+    border-radius: 5px;
+    font-size: 20px;
 }

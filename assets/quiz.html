@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Board Game</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <section>
         <div id="results"></div>
         <div class="formSection">
             <form action="#" name="quizForm" onsubmit="return submitResults()">
+                <h1>Answer all the Questions by choosing on the right answer</h1>
                 <h3>Q1. HTML document contains a root tag called?</h3>
                 <input type="radio" name="q1" id="q1a" value="a">a. Head <br>
                 <input type="radio" name="q1" id="q1b" value="b">b. Title<br>
@@ -43,7 +44,9 @@
                 <input type="radio" name="q5" id="q5d" value="d">d. Prototypes <br>
 
                 <br><br>
-                <input type="submit" value="Submit Results">
+                <input class="btn-3" type="submit" value="Submit Results">
+
+                <p>Copyright (C) 2022. The Ultimate Quiz Board Game</p>
             </form>
         </div>
     </section>
