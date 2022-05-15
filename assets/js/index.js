@@ -23,10 +23,10 @@ function submitResults(){
         }
     }
 
-
     // Setting of the correct answers
 
     var answers =["d", "b", "a", "c", "c"];
+    
 
     // Check Answers
 
