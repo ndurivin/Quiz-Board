@@ -68,7 +68,8 @@ body{
     font-family: 'Actor', sans-serif;
     background-color: rgb(23, 157, 205);
     color: #ffff;
-    padding: 20px;
+    padding: 10px;
+    
 }
 
 .formSection form > h1{
