@@ -37,7 +37,7 @@ function submitResults(){
         }
     }  
         alert("You have scored "+initialScore+ ' out of ' +totalQuiz);
-    
+
 }
 
 
