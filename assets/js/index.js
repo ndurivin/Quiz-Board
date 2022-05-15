@@ -36,7 +36,7 @@ function submitResults(){
             initialScore++;
         }
     }  
-        alert("You have scored "+initialScore+ ' out of ' +totalQuiz);
+        alert("Your score is "+initialScore+ ' out of ' +totalQuiz);
 
 }
 
