@@ -26,7 +26,7 @@ function submitResults(){
     // Setting of the correct answers
 
     var answers =["d", "b", "a", "c", "c"];
-    
+
 
     // Check Answers
 
@@ -35,8 +35,10 @@ function submitResults(){
         
             initialScore++;
         }
-    }
+    }  
         alert("You have scored "+initialScore+ ' out of ' +totalQuiz);
     
 }
+
+
 
