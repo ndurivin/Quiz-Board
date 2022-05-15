@@ -14,6 +14,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Actor', sans-serif;
+    background-color: azure;
 }
 
 /* Homepage Container */
@@ -40,6 +41,7 @@ body{
     font-weight: 900;
     border-radius: 5px;
     font-size: 20px;
+    margin-left: 120px;
 }
 
 .btn-2{
