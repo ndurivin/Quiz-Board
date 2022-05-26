@@ -23,11 +23,10 @@ function submitResults(){
         }
     }
 
-    // Setting of the correct answers
+//     // Setting of the correct answers
 
     var answers =["d", "b", "a", "c", "c"];
-
-
+   
     // Check Answers
 
     for(i = 1; i <= totalQuiz;i++){
@@ -39,6 +38,14 @@ function submitResults(){
         alert("Your score is "+initialScore+ ' out of ' +totalQuiz);
 
 }
+
+// function say(greeting, firstName) {
+//     return `${greeting}, ${firstName}!`;
+//     console.log('I was called!');
+//   }
+
+
+
 
 
 
